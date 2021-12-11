@@ -62,7 +62,7 @@
           <description align="center" color="yellow" colored="false" height="105" resized="false" width="180" x="606" y="338">Type your comment</description>
         </process>
       </operator>
-      <operator activated="true" class="store" compatibility="9.10.001" expanded="true" height="68" name="wordlist store" width="90" x="112" y="238">
+      <operator activated="true" class="store" compatibility="9.10.001" expanded="true" height="68" name="wordlist store" width="90" x="179" y="238">
         <parameter key="repository_entry" value="../wordlist/wordlist"/>
       </operator>
       <operator activated="true" class="concurrency:cross_validation" compatibility="9.10.001" expanded="true" height="145" name="Cross Validation" width="90" x="380" y="34">
