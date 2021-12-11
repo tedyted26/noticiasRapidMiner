@@ -14,8 +14,8 @@
     <process expanded="true">
       <operator activated="true" class="text:process_document_from_file" compatibility="9.3.001" expanded="true" height="82" name="Process Documents from Files" width="90" x="45" y="85">
         <list key="text_directories">
-          <parameter key="noodio" value="C:/Users/Teo/Documents/GitHub/noticiasRapidMiner/Noticias/NoOdio"/>
-          <parameter key="odio" value="C:/Users/Teo/Documents/GitHub/noticiasRapidMiner/Noticias/Odio"/>
+          <parameter key="noodio" value="C:/Users/maria/OneDrive/Documentos/UEM_3ero/SSII/noticiasRapidMiner/Noticias/NoOdio"/>
+          <parameter key="odio" value="C:/Users/maria/OneDrive/Documentos/UEM_3ero/SSII/noticiasRapidMiner/Noticias/Odio"/>
         </list>
         <parameter key="file_pattern" value="*"/>
         <parameter key="extract_text_only" value="true"/>
@@ -44,7 +44,7 @@
             <parameter key="transform_to" value="lower case"/>
           </operator>
           <operator activated="true" class="text:filter_stopwords_dictionary" compatibility="9.3.001" expanded="true" height="82" name="Filter Stopwords (Dictionary)" width="90" x="246" y="85">
-            <parameter key="file" value="C:/Users/Teo/Documents/GitHub/noticiasRapidMiner/listaparada/lista1.txt"/>
+            <parameter key="file" value="C:/Users/maria/OneDrive/Documentos/UEM_3ero/SSII/noticiasRapidMiner/listaparada/lista1.txt"/>
             <parameter key="case_sensitive" value="false"/>
             <parameter key="encoding" value="SYSTEM"/>
           </operator>
