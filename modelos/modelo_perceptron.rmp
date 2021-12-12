@@ -129,7 +129,7 @@
         </process>
       </operator>
       <operator activated="true" class="store" compatibility="9.10.001" expanded="true" height="68" name="Store" width="90" x="514" y="34">
-        <parameter key="repository_entry" value="../mod/modelo_neuralNet"/>
+        <parameter key="repository_entry" value="../mod/modelo_perceptron"/>
       </operator>
       <connect from_op="Process Documents from Files" from_port="example set" to_op="Cross Validation" to_port="example set"/>
       <connect from_op="Process Documents from Files" from_port="word list" to_op="wordlist store" to_port="input"/>

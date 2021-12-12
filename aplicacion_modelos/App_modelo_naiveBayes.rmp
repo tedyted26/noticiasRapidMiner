@@ -20,7 +20,7 @@
       </operator>
       <operator activated="true" class="text:process_document_from_file" compatibility="9.3.001" expanded="true" height="82" name="Process Documents from Files" width="90" x="246" y="238">
         <list key="text_directories">
-          <parameter key="desconocidos" value="C:/Users/maria/OneDrive/Documentos/UEM_3ero/SSII/noticiasRapidMiner/Noticias/Desconocidas"/>
+          <parameter key="desconocidos" value="C:\Users\maria\OneDrive\Documentos\UEM_3ero\SSII\noticiasRapidMiner\Noticias\unlabeled"/>
         </list>
         <parameter key="file_pattern" value="*"/>
         <parameter key="extract_text_only" value="true"/>

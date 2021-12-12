@@ -13,14 +13,14 @@
     <parameter key="encoding" value="SYSTEM"/>
     <process expanded="true">
       <operator activated="true" class="retrieve" compatibility="9.10.001" expanded="true" height="68" name="Retrieve model" width="90" x="112" y="85">
-        <parameter key="repository_entry" value="../mod/modelo_arbol"/>
+        <parameter key="repository_entry" value="../mod/modelo_k-nn"/>
       </operator>
       <operator activated="true" class="retrieve" compatibility="9.10.001" expanded="true" height="68" name="wordlist" width="90" x="45" y="391">
         <parameter key="repository_entry" value="../wordlist/wordlist"/>
       </operator>
       <operator activated="true" class="text:process_document_from_file" compatibility="9.3.001" expanded="true" height="82" name="Process Documents from Files" width="90" x="179" y="340">
         <list key="text_directories">
-          <parameter key="desconocidos" value="C:/Users/Teo/Documents/GitHub/noticiasRapidMiner/Noticias/Desconocidas"/>
+          <parameter key="desconocidos" value="C:\Users\maria\OneDrive\Documentos\UEM_3ero\SSII\noticiasRapidMiner\Noticias\unlabeled"/>
         </list>
         <parameter key="file_pattern" value="*"/>
         <parameter key="extract_text_only" value="true"/>
@@ -49,7 +49,7 @@
             <parameter key="transform_to" value="lower case"/>
           </operator>
           <operator activated="true" class="text:filter_stopwords_dictionary" compatibility="9.3.001" expanded="true" height="82" name="Filter Stopwords (Dictionary)" width="90" x="380" y="136">
-            <parameter key="file" value="C:/Users/Teo/Documents/GitHub/noticiasRapidMiner/listaparada/lista1.txt"/>
+            <parameter key="file" value="C:/Users/maria/OneDrive/Documentos/UEM_3ero/SSII/noticiasRapidMiner/listaparada/lista1.txt"/>
             <parameter key="case_sensitive" value="false"/>
             <parameter key="encoding" value="SYSTEM"/>
           </operator>
